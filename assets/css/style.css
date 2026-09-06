@@ -316,7 +316,7 @@ footer a{
     display:block;
     margin-bottom:8px;
     font-weight:600;
-    color:#8C5A57;
+    color:#98483B;
 }
 
 #rsvp-form input,
@@ -335,13 +335,13 @@ footer a{
 #rsvp-form select:focus,
 #rsvp-form textarea:focus{
     outline:none;
-    border-color:#8C5A57;
+    border-color:#98483B;
     box-shadow:0 0 0 4px rgba(140,90,87,0.15);
 }
 
 #rsvp-form button{
     margin-top:10px;
-    background:#8C5A57;
+    background:#98483B;
     color:white;
     border:none;
     padding:16px;
