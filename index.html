@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magdalena &amp; Josef</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&display=swap">
+
+   <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header class="hero">
+
+        <div class="hero-content">
+
+            <p class="save-the-date">
+                06. März 2027
+            </p>
+
+            <h1>
+                Magdalena
+                <span>&amp;</span>
+                Josef
+            </h1>
+
+            <div id="countdown"></div>
+
+        </div>
+
+    </header>
+
+<section class="section">
+
+<h2>Neuigkeiten</h2>
+
+<div class="news-box">
+    <div class="news-date">
+        Stand: September 2026
+    </div>
+
+    <div class="news-text">
+        Aktuell keine Neuigkeiten
+    </div>
+</div>
+
+</section>
+    <section class="section">
+
+        <h2>Ablauf</h2>
+
+        <div class="event">
+            <h3>13:30 Uhr · Trauung</h3>
+
+            <p>
+                Im Anschluss: <em>Sektempfang mit geschmeidiger Tanzlmusi an der Kirche </em>
+            </p>
+
+            <div class="location-box">
+    <strong>📍 Kirche St. Vitus</strong><br>
+    Kirchweg<br>
+    86853 Westerringen<br>
+<a href= "https://maps.google.com/?q=St.+Vitus+Westerringen" target="_blank" rel="noopener noreferrer" >
+       Route zur Kirche
+    </a>
+            </div>
+        </div>
+
+        <div class="event">
+            <h3>ca. 16:00 Uhr · Wirtschaft</h3>
+
+            <p>
+                <em> Kaffee & Kuchen </em><br>
+                <em> Abendessen & Tanz</em>
+            </p>
+
+            <div class="location-box">
+    <strong>📍 Deutsches Haus</strong><br>
+        Hauptstraße 8<br>
+         86853 Langerringen<br>
+    <a href= "https://maps.google.com/?q=Deutsches+Haus+Langerringen" target="_blank" rel="noopener noreferrer">
+       Route zur Location
+    </a>
+</div>
+
+
+            
+            <p>
+    
+</p>
+        </div>
+
+        <div class="event">
+            <h3>00:30 Uhr · Ende</h3>
+        </div>
+
+    </section>
+
+   <section class="section">
+            <h2>Rückmeldung</h2>
+<p class="form-intro">
+    Bitte gebt uns bis spätestens 30.11.2026 Bescheid,
+    ob ihr kommt.
+</p>
+            <form id="rsvp-form" autocomplete="on">
+                <div class="form-row">
+                <label for="vorname">Vorname</label>
+                <input
+                    id="vorname"
+                    type="text"
+                    name="vorname"
+                    autocomplete="given-name"
+                    required
+                >
+
+                <label for="nachname">Nachname</label>
+                <input
+                    id="nachname"
+                    type="text"
+                    name="nachname"
+                    autocomplete="family-name"
+                    required
+                >
+            </div>
+<div class="radio-group">
+
+    <label>
+        <input type="radio" name="teilnahme" value="ja">
+        Ja, wir kommen
+    </label>
+
+    <label>
+        <input type="radio" name="teilnahme" value="nein">
+        Leider nicht
+    </label>
+
+</div>
+
+<div class="form-row">
+                <label for="erwachsene">Anzahl Erwachsene</label>
+                <input
+                    id="erwachsene"
+                    type="number"
+                    name="erwachsene"
+                    min="0"
+                    step="1"
+                >
+
+                <label for="kinder">Anzahl Kinder</label>
+                <input
+                    id="kinder"
+                    type="number"
+                    name="kinder"
+                    min="0"
+                    step="1"
+                >
+</div>
+                <label for="uebernachtung">Übernachtung</label>
+                <select id="uebernachtung" name="uebernachtung">
+                    <option value="nein">
+                        Keine Übernachtung benötigt
+                    </option>
+                    <option value="ja">
+                        Übernachtung benötigt
+                    </option>
+                </select>
+
+                <label for="allergien">
+                    Allergien oder Unverträglichkeiten
+                </label>
+                <textarea id="allergien" name="allergien"></textarea>
+
+                <label for="nachricht">Nachricht an das Brautpaar</label>
+                <textarea id="nachricht" name="nachricht"></textarea>
+
+                <button type="submit">Rückmeldung senden</button>
+            </form>
+        </section>
+
+    <section class="section">
+
+        <h2>FAQ</h2>
+
+        <details>
+            <summary>Wer sind die Trauzeugen?</summary>
+            <p>Stefan und Katha, Telefonnummern auf der Einladung oder auf Nachfrage.</p>
+        </details>
+
+        <details>
+            <summary>Warum muss die Hochzeit in Schwaben stattfinden?</summary>
+            <p>
+                Damit sich Josef bis ans Ende seines Lebens anhören kann, dass Magdalena nicht nur nach Schwaben ziehen muss, sondern auch dort heiraten musste.
+            </p>
+        </details>
+
+        <details>
+            <summary>Dresscode?</summary>
+            <p>
+                Entgegen populärer Annahmen ist es durchaus möglich, unsere Hochzeit nicht in Tracht zu besuchen - Ziehts an was ihr wollts, solangs net zu g’schlampert is!
+            </p>
+        </details>
+
+        <details>
+            <summary>Wo kann ich übernachten?</summary>
+            <p>
+                Bitte kreuzt bei der Anmeldung an dass ihr eine Übernachtungsgelegenheit braucht - wir versuchen uns koordiniert darum zu kümmern und melden uns!
+            </p>
+        </details>
+
+        <details>
+            <summary>Muss ich katholisch sein?</summary>
+            <p>
+                Das merkt ihr wenn ihr in Flammen aufgeht, sobald ihr den Kirchenboden betretet.
+            </p>
+        </details>
+
+        <details>
+            <summary>Was gibt es zu essen?</summary>
+            <p>
+                Vorspeise und Hauptspeise. Der Rest bleibt noch eine Überraschung. Nach der Kirche ist eine deftige Kleinigkeit geplant.
+            </p>
+        </details>
+
+    </section>
+
+    <section class="section">
+
+        <h2></h2>
+
+<div class="gallery">
+    <img src="./assets/img/gallery/IMG_5998.JPG" alt="Magdalena und Josef">
+    <img src="./assets/img/gallery/IMG_5995.JPG" alt="Magdalena und Josef">
+    <img src="./assets/img/gallery/IMG_6064.JPG" alt="Magdalena und Josef">
+</div>
+
+    </section>
+
+    <footer>
+
+    <p>
+        Magdalena & Josef · 06.03.2027
+    </p>
+
+    <a href="impressum.html">
+        Impressum
+    </a>
+
+    |
+
+    <a href="datenschutz.html">
+        Datenschutz
+    </a>
+
+</footer>
+<script src="assets/js/countdown.js"></script>
+<script src="assets/js/rsvp.js"></script>
+</body>
+</html>
+
