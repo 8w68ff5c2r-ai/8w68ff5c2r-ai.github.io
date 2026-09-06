@@ -466,8 +466,10 @@ footer a{
     font-size:1.1rem;
 }
 
-.heart{
-    font-size:3rem;
-    color:#000;
-    margin-top:20px;
+.hero-heart{
+    font-family: serif;
+    font-size: 4rem;
+    color: #000;
+    line-height: 1;
+    margin: 20px 0;
 }
