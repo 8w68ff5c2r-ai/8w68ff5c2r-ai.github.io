@@ -465,3 +465,9 @@ footer a{
 .news-text{
     font-size:1.1rem;
 }
+
+.heart{
+    font-size:3rem;
+    color:#000;
+    margin-top:20px;
+}
