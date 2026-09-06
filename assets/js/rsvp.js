@@ -1,28 +1,22 @@
-document
-.getElementById("rsvp-form")
-.addEventListener("submit", function(e){
+const form = document.getElementById("rsvp-form");
 
+form.addEventListener("submit", async (e) => {
     e.preventDefault();
 
-    alert(
-        "Vielen Dank für eure Rückmeldung!"
-    );
+    const data = new FormData(form);
 
-});
+    const response = await fetch(form.action, {
+        method: "POST",
+        body: data,
+        headers: {
+            Accept: "application/json"
+        }
+    });
 
-/*
-Power Automate URL eintragen
-
-await fetch(
-"DEINE_FLOW_URL",
-{
-method:"POST",
-headers:{
-"Content-Type":"application/json"
-},
-body:JSON.stringify(data)
-}
-);
-*/
-
+    if (response.ok) {
+        alert("Vielen Dank für eure Rückmeldung!");
+        form.reset();
+    } else {
+        alert("Beim Senden ist ein Fehler aufgetreten.");
+    }
 });
