@@ -282,6 +282,10 @@ footer a{
 
 @media(max-width:768px){
 
+    .save-the-date{
+    font-size:1.8rem;
+    }
+
     .timeline::before{
         display:none;
     }
