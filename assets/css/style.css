@@ -302,6 +302,15 @@ footer a{
         width:70px;
         height:70px;
     }
+
+    .hero{
+        padding:20px;
+    }
+
+    .hero p{
+        margin-bottom:25px;
+    }
+
 }
 
 #rsvp-form{
