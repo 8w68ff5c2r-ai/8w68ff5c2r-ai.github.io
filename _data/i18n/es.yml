@@ -29,8 +29,12 @@ countdown:
 
 news:
   title: "Novedades"
-  date: "Actualizado: noviembre de 2026"
-  text: "Novedades sobre el alojamiento: consultad las preguntas frecuentes"
+  # Neueste Meldung zuerst / newest first
+  items:
+    - date: "Actualizado: noviembre de 2026"
+      text: "¡La web ya está disponible también en inglés y en español! Solo tenéis que pulsar una bandera arriba a la derecha."
+    - date: "Actualizado: noviembre de 2026"
+      text: "Novedades sobre el alojamiento: consultad las preguntas frecuentes"
 
 schedule:
   title: "Programa"

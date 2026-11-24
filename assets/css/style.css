@@ -580,3 +580,8 @@ footer a{
         letter-spacing:.5px;
     }
 }
+
+/* Space between several news items */
+.news-box + .news-box{
+    margin-top:20px;
+}

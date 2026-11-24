@@ -29,8 +29,12 @@ countdown:
 
 news:
   title: "Neuigkeiten"
-  date: "Stand: November 2026"
-  text: "Update zur Übernachtung - vgl. FAQ"
+  # Neueste Meldung zuerst / newest first
+  items:
+    - date: "Stand: November 2026"
+      text: "Die Website gibt es jetzt auch auf Englisch und Spanisch – einfach oben rechts auf eine Flagge tippen."
+    - date: "Stand: November 2026"
+      text: "Update zur Übernachtung - vgl. FAQ"
 
 schedule:
   title: "Ablauf"

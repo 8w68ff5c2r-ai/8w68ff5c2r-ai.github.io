@@ -32,15 +32,17 @@ layout: base
 
 <h2>{{ t.news.title }}</h2>
 
+{% for item in t.news.items %}
 <div class="news-box">
     <div class="news-date">
-        {{ t.news.date }}
+        {{ item.date }}
     </div>
 
     <div class="news-text">
-       {{ t.news.text }}
+       {{ item.text }}
     </div>
 </div>
+{% endfor %}
 
 </section>
     <section class="section">
@@ -231,5 +233,5 @@ layout: base
     </a>
 
 </footer>
-<script src="/assets/js/countdown.js"></script>
-<script src="/assets/js/rsvp.js"></script>
+<script src="/assets/js/countdown.js?v={{ site.time | date: "%Y%m%d%H%M%S" }}"></script>
+<script src="/assets/js/rsvp.js?v={{ site.time | date: "%Y%m%d%H%M%S" }}"></script>

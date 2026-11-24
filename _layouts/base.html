@@ -13,8 +13,8 @@
     <meta name="description" content="{{ t.meta[page.key].description }}">
 {% include hreflang.html %}
 
-    <link rel="stylesheet" href="/assets/css/fonts.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/fonts.css?v={{ site.time | date: "%Y%m%d%H%M%S" }}">
+    <link rel="stylesheet" href="/assets/css/style.css?v={{ site.time | date: "%Y%m%d%H%M%S" }}">
 </head>
 
 <body>
@@ -23,6 +23,6 @@
 
 {{ content }}
 
-<script src="/assets/js/lang-switcher.js"></script>
+<script src="/assets/js/lang-switcher.js?v={{ site.time | date: "%Y%m%d%H%M%S" }}"></script>
 </body>
 </html>

@@ -29,8 +29,12 @@ countdown:
 
 news:
   title: "News"
-  date: "Last updated: November 2026"
-  text: "Update on accommodation – see FAQ"
+  # Neueste Meldung zuerst / newest first
+  items:
+    - date: "Last updated: November 2026"
+      text: "This website is now available in English and Spanish too – just tap a flag in the top right-hand corner."
+    - date: "Last updated: November 2026"
+      text: "Update on accommodation – see FAQ"
 
 schedule:
   title: "The Day"
