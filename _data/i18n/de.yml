@@ -1,0 +1,239 @@
+# Deutsche Texte (Original). Alle Werte in "Anführungszeichen" lassen.
+# HTML (z. B. <br>, <em>, <a>) ist erlaubt.
+
+lang_name: "Deutsch"
+flag: "bavaria"
+switcher_label: "Sprache wählen"
+legal_note: ""
+
+meta:
+  home:
+    title: "Magdalena &amp; Josef"
+    description: "Magdalena &amp; Josef heiraten am 06. März 2027 – Ablauf, Rückmeldung und FAQ zu unserer Hochzeit."
+  impressum:
+    title: "Impressum"
+    description: "Impressum der Hochzeitswebsite von Magdalena &amp; Josef."
+  datenschutz:
+    title: "Datenschutz"
+    description: "Datenschutzerklärung der Hochzeitswebsite von Magdalena &amp; Josef."
+
+hero:
+  date: "06. März 2027"
+
+countdown:
+  days: "Tage"
+  hours: "Stunden"
+  minutes: "Minuten"
+  seconds: "Sekunden"
+  done: "Heute ist unser großer Tag!"
+
+news:
+  title: "Neuigkeiten"
+  date: "Stand: November 2026"
+  text: "Update zur Übernachtung - vgl. FAQ"
+
+schedule:
+  title: "Ablauf"
+  ceremony_time: "13:30 Uhr · Trauung"
+  ceremony_after_label: "Im Anschluss:"
+  ceremony_after: "Sektempfang mit geschmeidiger Tanzlmusi an der Kirche"
+  church_name: "Kirche St. Vitus"
+  church_route: "Route zur Kirche"
+  party_time: "ca. 16:00 Uhr · Wirtschaft"
+  party_coffee: "Kaffee &amp; Kuchen"
+  party_dinner: "Abendessen &amp; Tanz"
+  venue_route: "Route zur Location"
+  end_time: "00:30 Uhr · Ende"
+
+rsvp:
+  title: "Rückmeldung"
+  intro: "Bitte gebt uns bis spätestens 31.12.2026 Bescheid, ob ihr kommt."
+  first_name: "Vorname"
+  last_name: "Nachname"
+  attend_yes: "Ja, wir kommen"
+  attend_no: "Leider nicht"
+  adults: "Anzahl Erwachsene"
+  children: "Anzahl Kinder"
+  accommodation: "Übernachtung"
+  accommodation_not_needed: "Keine Übernachtung benötigt"
+  accommodation_needed: "Übernachtung benötigt"
+  allergies: "Allergien oder Unverträglichkeiten"
+  message: "Nachricht an das Brautpaar"
+  submit: "Rückmeldung senden"
+  success: "Vielen Dank für eure Rückmeldung!"
+  error: "Beim Senden ist ein Fehler aufgetreten."
+
+faq:
+  title: "FAQ"
+  items:
+    - q: "Wer sind die Trauzeugen?"
+      a: "Stefan, Katha und Regina, Telefonnummern auf der Einladung oder auf Nachfrage."
+    - q: "Warum muss die Hochzeit in Schwaben stattfinden?"
+      a: "Damit sich Josef bis ans Ende seines Lebens anhören kann, dass Magdalena nicht nur nach Schwaben ziehen muss, sondern auch dort heiraten musste."
+    - q: "Dresscode?"
+      a: "Entgegen populärer Annahmen ist es durchaus möglich, unsere Hochzeit nicht in Tracht zu besuchen - Ziehts an was ihr wollts, solangs net zu g’schlampert is!"
+    - q: "Wo kann ich übernachten?"
+      a: "Bitte kreuzt bei der Anmeldung an dass ihr eine Übernachtungsgelegenheit braucht - wir versuchen uns koordiniert darum zu kümmern und melden uns!"
+    - q: "Muss ich katholisch sein, um die Kirche zu betreten?"
+      a: "Das merkt ihr wenn ihr in Flammen aufgeht, sobald ihr den Kirchenboden betretet."
+    - q: "Was gibt es zu essen?"
+      a: "Vorspeise und Hauptspeise. Der Rest bleibt noch eine Überraschung. Nach der Kirche ist eine deftige Kleinigkeit geplant."
+    - q: "Wie funktioniert das für mich mit der Übernachtung ?"
+      a: "Es gibt zwei Übernachtungsmöglichkeiten direkt in Langerringen - ein Hotel, dass noch nicht eröffnet hat und 3 Ferienwohnungen. Wir haben bei beiden schon angefragt und es gibt genügend Kapazitäten für alle. Gebt uns bitte Bescheid, ob ihr übernachtet und wir kümmern uns zentral. Die aktuelle Unterkünfte haben eine Mindestaufenthaltsdauer von 2 Nächten. Wir planen aktuell für die weit angereisten, die schon von Freitag auf Samstag übernachten ein kleines gemütliches Beisammensein."
+
+gallery:
+  alt: "Magdalena und Josef"
+
+footer:
+  date: "06.03.2027"
+  impressum: "Impressum"
+  datenschutz: "Datenschutz"
+
+impressum:
+  heading: "Impressum"
+  body: |
+    <p>Magdalena &amp; Josef Starkmann, 81539 München</p>
+
+datenschutz:
+  heading: "Datenschutzerklärung"
+  body: |
+    <h2>1. Verantwortliche</h2>
+
+    <p>
+    Verantwortlich für die Verarbeitung personenbezogener Daten auf dieser Website sind:
+    </p>
+
+    <p>
+    Magdalena Starkmann<br>
+    Josef Starkmann<br>
+    81539 München<br>
+    E-Mail: 8w68ff5c2r@privaterelay.appleid.com
+    </p>
+
+    <h2>2. Allgemeine Hinweise</h2>
+
+    <p>
+    Der Schutz eurer persönlichen Daten ist uns wichtig.
+    Die Verarbeitung personenbezogener Daten erfolgt ausschließlich im Rahmen der geltenden Datenschutzgesetze, insbesondere der Datenschutz-Grundverordnung (DSGVO).
+    </p>
+
+    <h2>3. Hosting der Website</h2>
+
+    <p>
+    Diese Website wird über GitHub Pages bereitgestellt. Beim Besuch der Website können technisch erforderliche Daten verarbeitet werden, insbesondere:
+    </p>
+
+    <ul>
+    <li>IP-Adresse</li>
+    <li>Datum und Uhrzeit des Zugriffs</li>
+    <li>Browsertyp und Browserversion</li>
+    <li>Betriebssystem</li>
+    <li>aufgerufene Seiten</li>
+    </ul>
+
+    <p>
+    Die Verarbeitung erfolgt zur technischen Bereitstellung und sicheren Auslieferung der Website.
+    </p>
+
+    <p>
+    Weitere Informationen:
+    <a href="https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub Privacy Statement</a>
+    </p>
+
+    <h2>4. Spracheinstellung</h2>
+
+    <p>
+    Beim ersten Aufruf der Startseite wählt die Website die Sprache anhand der Zeitzone und der Spracheinstellung eures Browsers aus. Diese Auswertung findet ausschließlich lokal in eurem Browser statt; es werden dabei keine Daten an uns oder Dritte übermittelt.
+    </p>
+
+    <p>
+    Wenn ihr über die Flaggen eine Sprache auswählt, wird diese Auswahl im lokalen Speicher eures Browsers (Local Storage) abgelegt, damit die Website beim nächsten Besuch in dieser Sprache erscheint. Diese Information verlässt euren Browser nicht und kann jederzeit über die Browsereinstellungen gelöscht werden.
+    Rechtsgrundlage ist § 25 Abs. 2 Nr. 2 TDDDG (unbedingt erforderliche Speicherung für einen von euch gewünschten Dienst).
+    </p>
+
+    <h2>5. Rückmeldeformular</h2>
+
+    <p>
+    Über das Anmeldeformular können personenbezogene Daten übermittelt werden. Hierzu gehören insbesondere:
+    </p>
+
+    <ul>
+    <li>Vor- und Nachname</li>
+    <li>Teilnahme oder Absage</li>
+    <li>Anzahl der Erwachsenen und Kinder</li>
+    <li>Übernachtungswünsche</li>
+    <li>Allergien oder Unverträglichkeiten</li>
+    <li>freiwillige Nachrichten</li>
+    </ul>
+
+    <p>
+    Die Daten werden ausschließlich zur Planung und Durchführung unserer Hochzeitsfeier verarbeitet.
+    </p>
+
+    <p>
+    Rechtsgrundlage ist Art. 6 Abs. 1 lit. a DSGVO (Einwilligung).
+    </p>
+
+    <h2>6. Verarbeitung durch Formspree</h2>
+
+    <p>
+    Für die technische Übermittlung der Formulardaten nutzen wir den Dienst Formspree.
+    Die eingegebenen Daten werden an Formspree übermittelt und dort zur Zustellung der Formularanfrage verarbeitet.
+    </p>
+
+    <p>
+    Weitere Informationen:
+    <a href="https://formspree.io/legal/privacy-policy/" target="_blank" rel="noopener noreferrer">Datenschutzerklärung von Formspree</a>
+    </p>
+
+    <h2>7. Speicherdauer</h2>
+
+    <p>
+    Die über das Formular übermittelten Daten werden nur solange gespeichert, wie dies für die Planung, Organisation und Durchführung der Hochzeit erforderlich ist.
+    Nach Wegfall des Verarbeitungszwecks werden die Daten gelöscht.
+    </p>
+
+    <h2>8. Empfänger personenbezogener Daten</h2>
+
+    <p>
+    Zur technischen Bereitstellung und Verarbeitung können folgende Dienstleister eingesetzt werden:
+    </p>
+
+    <ul>
+    <li>GitHub Pages (Hosting)</li>
+    <li>Formspree (Formularverarbeitung)</li>
+    </ul>
+
+    <h2>9. Rechte der betroffenen Personen</h2>
+
+    <p>
+    Ihr habt das Recht:
+    </p>
+
+    <ul>
+    <li>Auskunft über die gespeicherten Daten zu erhalten</li>
+    <li>Berichtigung unrichtiger Daten zu verlangen</li>
+    <li>Löschung eurer Daten zu verlangen</li>
+    <li>Einschränkung der Verarbeitung zu verlangen</li>
+    <li>eine erteilte Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen</li>
+    </ul>
+
+    <p>
+    Zur Ausübung dieser Rechte genügt eine formlose Nachricht an die oben angegebenen Verantwortlichen.
+    </p>
+
+    <h2>10. Beschwerderecht</h2>
+
+    <p>
+    Ihr habt das Recht, euch bei einer Datenschutzaufsichtsbehörde über die Verarbeitung eurer personenbezogenen Daten zu beschweren.
+    </p>
+
+    <h2>11. Änderungen dieser Datenschutzerklärung</h2>
+
+    <p>
+    Wir behalten uns vor, diese Datenschutzerklärung anzupassen, sofern rechtliche oder technische Änderungen dies erforderlich machen.
+    </p>
+
+    <p>
+    Stand: November 2026
+    </p>

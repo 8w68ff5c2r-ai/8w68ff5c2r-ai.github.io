@@ -1,0 +1,20 @@
+{%- comment -%}
+  Canonical + hreflang alternates. Needs `slug` (assigned in the base layout).
+  The root page "/" is the x-default for the homepage (it auto-selects a language);
+  for all other pages German is the x-default.
+{%- endcomment -%}
+{%- if page.root -%}
+    {%- assign canonical = "/" -%}
+{%- else -%}
+    {%- assign canonical = "/" | append: page.lang | append: "/" | append: slug -%}
+{%- endif -%}
+{%- if page.key == "home" -%}
+    {%- assign xdefault = "/" -%}
+{%- else -%}
+    {%- assign xdefault = "/" | append: site.default_lang | append: "/" | append: slug -%}
+{%- endif %}
+    <link rel="canonical" href="{{ site.url }}{{ canonical }}">
+{%- for l in site.languages %}
+    <link rel="alternate" hreflang="{{ l }}" href="{{ site.url }}/{{ l }}/{{ slug }}">
+{%- endfor %}
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ xdefault }}">

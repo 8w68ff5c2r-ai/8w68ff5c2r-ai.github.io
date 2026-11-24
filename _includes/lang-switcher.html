@@ -1,0 +1,6 @@
+<nav class="lang-switcher" aria-label="{{ t.switcher_label }}">
+{%- for l in site.languages %}
+{%- assign lt = site.data.i18n[l] %}
+    <a href="/{{ l }}/{{ slug }}" hreflang="{{ l }}" lang="{{ l }}" data-lang="{{ l }}" aria-label="{{ lt.lang_name }}" title="{{ lt.lang_name }}"{% if l == page.lang %} aria-current="page"{% endif %}><img src="/assets/img/flags/{{ lt.flag }}.svg" alt="" width="30" height="20"></a>
+{%- endfor %}
+</nav>

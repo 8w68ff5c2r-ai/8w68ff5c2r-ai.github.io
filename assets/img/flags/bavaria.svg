@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 20" width="30" height="20">
+  <defs>
+    <!-- checkerboard sheared into slanted lozenges ("Rauten") -->
+    <pattern id="rauten" width="2" height="2" patternUnits="userSpaceOnUse"
+             patternTransform="matrix(4.1 -1.2 1.2 -4.1 0 0)">
+      <rect width="2" height="2" fill="#FFFFFF"/>
+      <rect width="1" height="1" fill="#0098D4"/>
+      <rect x="1" y="1" width="1" height="1" fill="#0098D4"/>
+    </pattern>
+  </defs>
+  <rect width="30" height="20" fill="url(#rauten)"/>
+</svg>

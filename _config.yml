@@ -1,0 +1,23 @@
+# Jekyll configuration (GitHub Pages builds this automatically on every push)
+
+url: "https://www.starkmann.info"
+baseurl: ""
+
+# Order = order of the flags in the language switcher
+languages: ["de", "en", "es"]
+default_lang: "de"
+
+# Pages that exist in every language (key -> file name inside /de/, /en/, /es/)
+# "home" is the language folder itself (/de/, /en/, /es/)
+i18n_pages:
+  - key: "home"
+    file: ""
+  - key: "impressum"
+    file: "impressum.html"
+  - key: "datenschutz"
+    file: "datenschutz.html"
+
+exclude:
+  - README.md
+  - "*.docx"
+  - power-automate

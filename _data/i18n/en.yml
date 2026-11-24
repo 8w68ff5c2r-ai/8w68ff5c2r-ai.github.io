@@ -1,0 +1,239 @@
+# English texts (British English). Keep every value in "quotes".
+# HTML (e.g. <br>, <em>, <a>) is allowed.
+
+lang_name: "English"
+flag: "scotland"
+switcher_label: "Choose language"
+legal_note: "This translation is provided for convenience only. The German version is legally binding."
+
+meta:
+  home:
+    title: "Magdalena &amp; Josef"
+    description: "Magdalena &amp; Josef are getting married on 6 March 2027 – schedule, RSVP and FAQ for our wedding."
+  impressum:
+    title: "Legal notice"
+    description: "Legal notice for the wedding website of Magdalena &amp; Josef."
+  datenschutz:
+    title: "Privacy policy"
+    description: "Privacy policy for the wedding website of Magdalena &amp; Josef."
+
+hero:
+  date: "6 March 2027"
+
+countdown:
+  days: "Days"
+  hours: "Hours"
+  minutes: "Minutes"
+  seconds: "Seconds"
+  done: "Today is our big day!"
+
+news:
+  title: "News"
+  date: "Last updated: November 2026"
+  text: "Update on accommodation – see FAQ"
+
+schedule:
+  title: "The Day"
+  ceremony_time: "1.30 pm · Wedding ceremony"
+  ceremony_after_label: "Afterwards:"
+  ceremony_after: "drinks reception outside the church, with some smooth Bavarian folk music"
+  church_name: "St. Vitus Church"
+  church_route: "Directions to the church"
+  party_time: "approx. 4 pm · Celebration at the inn"
+  party_coffee: "Coffee &amp; cake"
+  party_dinner: "Dinner &amp; dancing"
+  venue_route: "Directions to the venue"
+  end_time: "12.30 am · Carriages"
+
+rsvp:
+  title: "RSVP"
+  intro: "Please let us know whether you can make it by 31 December 2026 at the latest."
+  first_name: "First name"
+  last_name: "Surname"
+  attend_yes: "Yes, we'll be there"
+  attend_no: "Sadly, we can't make it"
+  adults: "Number of adults"
+  children: "Number of children"
+  accommodation: "Accommodation"
+  accommodation_not_needed: "No accommodation needed"
+  accommodation_needed: "Accommodation needed"
+  allergies: "Allergies or food intolerances"
+  message: "Message for the bride and groom"
+  submit: "Send RSVP"
+  success: "Thank you so much for letting us know!"
+  error: "Sorry, something went wrong while sending your reply."
+
+faq:
+  title: "FAQ"
+  items:
+    - q: "Who are the witnesses?"
+      a: "Stefan, Katha and Regina. You'll find their phone numbers on the invitation, or just ask us."
+    - q: "Why does the wedding have to be in Swabia?"
+      a: "So that Josef can spend the rest of his life hearing about how Magdalena not only had to move to Swabia, but had to get married there too."
+    - q: "Dress code?"
+      a: "Contrary to popular belief, you are more than welcome to come to our wedding without wearing Tracht (traditional Bavarian dress). Wear whatever you like – just don't turn up looking too scruffy!"
+    - q: "Where can I stay?"
+      a: "Please tick “Accommodation needed” on the RSVP form. We're trying to coordinate it for everyone and will get back to you!"
+    - q: "Do I have to be Catholic to set foot in the church?"
+      a: "You'll find out if you burst into flames the moment you step inside."
+    - q: "What's on the menu?"
+      a: "A starter and a main course – the rest is still a surprise. After the church, there'll be a hearty bite to eat."
+    - q: "How does the accommodation work for me?"
+      a: "There are two places to stay right in Langerringen: a hotel that hasn't opened yet, and three holiday flats. We've already been in touch with both, and there's plenty of room for everyone. Just let us know whether you'd like to stay overnight and we'll sort it out centrally. The accommodation currently has a minimum stay of two nights. For those travelling from further afield who arrive on Friday night, we're planning a small, cosy get-together."
+
+gallery:
+  alt: "Magdalena and Josef"
+
+footer:
+  date: "06.03.2027"
+  impressum: "Legal notice"
+  datenschutz: "Privacy policy"
+
+impressum:
+  heading: "Legal notice"
+  body: |
+    <p>Magdalena &amp; Josef Starkmann, 81539 München</p>
+
+datenschutz:
+  heading: "Privacy policy"
+  body: |
+    <h2>1. Data controllers</h2>
+
+    <p>
+    The persons responsible for processing personal data on this website are:
+    </p>
+
+    <p>
+    Magdalena Starkmann<br>
+    Josef Starkmann<br>
+    81539 München<br>
+    Email: 8w68ff5c2r@privaterelay.appleid.com
+    </p>
+
+    <h2>2. General information</h2>
+
+    <p>
+    Protecting your personal data matters to us.
+    Personal data is processed solely in accordance with the applicable data protection laws, in particular the General Data Protection Regulation (GDPR).
+    </p>
+
+    <h2>3. Website hosting</h2>
+
+    <p>
+    This website is hosted on GitHub Pages. When you visit the website, technically necessary data may be processed, in particular:
+    </p>
+
+    <ul>
+    <li>IP address</li>
+    <li>date and time of access</li>
+    <li>browser type and version</li>
+    <li>operating system</li>
+    <li>pages visited</li>
+    </ul>
+
+    <p>
+    This data is processed in order to provide the website and deliver it securely.
+    </p>
+
+    <p>
+    Further information:
+    <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub Privacy Statement</a>
+    </p>
+
+    <h2>4. Language settings</h2>
+
+    <p>
+    When you first open the homepage, the website selects a language based on your browser's time zone and language settings. This happens entirely within your browser; no data is sent to us or to third parties.
+    </p>
+
+    <p>
+    If you choose a language using the flags, your choice is saved in your browser's local storage so that the website appears in that language on your next visit. This information never leaves your browser and can be deleted at any time via your browser settings.
+    The legal basis is Section 25(2) no. 2 TDDDG (German Telecommunications Digital Services Data Protection Act; storage strictly necessary for a service you have requested).
+    </p>
+
+    <h2>5. RSVP form</h2>
+
+    <p>
+    Personal data may be submitted via the RSVP form. This includes in particular:
+    </p>
+
+    <ul>
+    <li>first name and surname</li>
+    <li>whether you will attend</li>
+    <li>number of adults and children</li>
+    <li>accommodation requests</li>
+    <li>allergies or food intolerances</li>
+    <li>optional messages</li>
+    </ul>
+
+    <p>
+    This data is processed solely for planning and holding our wedding celebration.
+    </p>
+
+    <p>
+    The legal basis is Art. 6(1)(a) GDPR (consent).
+    </p>
+
+    <h2>6. Processing by Formspree</h2>
+
+    <p>
+    We use the Formspree service to transmit the form data.
+    The data you enter is sent to Formspree and processed there in order to deliver the form submission.
+    </p>
+
+    <p>
+    Further information:
+    <a href="https://formspree.io/legal/privacy-policy/" target="_blank" rel="noopener noreferrer">Formspree Privacy Policy</a>
+    </p>
+
+    <h2>7. Storage period</h2>
+
+    <p>
+    Data submitted via the form is stored only for as long as is necessary to plan, organise and hold the wedding.
+    Once it is no longer needed for that purpose, the data is deleted.
+    </p>
+
+    <h2>8. Recipients of personal data</h2>
+
+    <p>
+    The following service providers may be used to provide and process the website:
+    </p>
+
+    <ul>
+    <li>GitHub Pages (hosting)</li>
+    <li>Formspree (form processing)</li>
+    </ul>
+
+    <h2>9. Your rights</h2>
+
+    <p>
+    You have the right to:
+    </p>
+
+    <ul>
+    <li>obtain information about the data stored about you</li>
+    <li>have inaccurate data corrected</li>
+    <li>have your data erased</li>
+    <li>request restriction of processing</li>
+    <li>withdraw your consent at any time with effect for the future</li>
+    </ul>
+
+    <p>
+    To exercise these rights, simply send an informal message to the data controllers named above.
+    </p>
+
+    <h2>10. Right to lodge a complaint</h2>
+
+    <p>
+    You have the right to lodge a complaint with a data protection supervisory authority about the processing of your personal data.
+    </p>
+
+    <h2>11. Changes to this privacy policy</h2>
+
+    <p>
+    We reserve the right to update this privacy policy if legal or technical changes make this necessary.
+    </p>
+
+    <p>
+    Last updated: November 2026
+    </p>

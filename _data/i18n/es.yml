@@ -1,0 +1,239 @@
+# Textos en español. Mantén todos los valores entre "comillas".
+# Se permite HTML (p. ej. <br>, <em>, <a>).
+
+lang_name: "Español"
+flag: "spain"
+switcher_label: "Elegir idioma"
+legal_note: "Esta traducción se ofrece únicamente a título informativo. La versión alemana es la jurídicamente vinculante."
+
+meta:
+  home:
+    title: "Magdalena &amp; Josef"
+    description: "Magdalena y Josef se casan el 6 de marzo de 2027: programa, confirmación de asistencia y preguntas frecuentes sobre nuestra boda."
+  impressum:
+    title: "Aviso legal"
+    description: "Aviso legal de la web de boda de Magdalena y Josef."
+  datenschutz:
+    title: "Política de privacidad"
+    description: "Política de privacidad de la web de boda de Magdalena y Josef."
+
+hero:
+  date: "6 de marzo de&nbsp;2027"
+
+countdown:
+  days: "Días"
+  hours: "Horas"
+  minutes: "Minutos"
+  seconds: "Segundos"
+  done: "¡Hoy es nuestro gran día!"
+
+news:
+  title: "Novedades"
+  date: "Actualizado: noviembre de 2026"
+  text: "Novedades sobre el alojamiento: consultad las preguntas frecuentes"
+
+schedule:
+  title: "Programa"
+  ceremony_time: "13:30 h · Ceremonia"
+  ceremony_after_label: "A continuación:"
+  ceremony_after: "brindis con vino espumoso junto a la iglesia, amenizado con música tradicional bávara"
+  church_name: "Iglesia de St. Vitus"
+  church_route: "Cómo llegar a la iglesia"
+  party_time: "Hacia las 16:00 h · Celebración en el mesón"
+  party_coffee: "Café y tarta"
+  party_dinner: "Cena y baile"
+  venue_route: "Cómo llegar al lugar de la celebración"
+  end_time: "00:30 h · Fin de la fiesta"
+
+rsvp:
+  title: "Confirmación de asistencia"
+  intro: "Por favor, decidnos antes del 31 de diciembre de 2026 si vais a venir."
+  first_name: "Nombre"
+  last_name: "Apellidos"
+  attend_yes: "Sí, allí estaremos"
+  attend_no: "Por desgracia, no podemos ir"
+  adults: "Número de adultos"
+  children: "Número de niños"
+  accommodation: "Alojamiento"
+  accommodation_not_needed: "No necesitamos alojamiento"
+  accommodation_needed: "Necesitamos alojamiento"
+  allergies: "Alergias o intolerancias alimentarias"
+  message: "Mensaje para los novios"
+  submit: "Enviar confirmación"
+  success: "¡Muchas gracias por vuestra respuesta!"
+  error: "Lo sentimos, se ha producido un error al enviar el formulario."
+
+faq:
+  title: "Preguntas frecuentes"
+  items:
+    - q: "¿Quiénes son los testigos?"
+      a: "Stefan, Katha y Regina. Tenéis sus números de teléfono en la invitación; si no, preguntadnos."
+    - q: "¿Por qué tiene que ser la boda en Suabia?"
+      a: "Para que Josef tenga que oír durante el resto de su vida que Magdalena no solo tuvo que mudarse a Suabia, sino que encima tuvo que casarse allí."
+    - q: "¿Hay código de vestimenta?"
+      a: "Contra lo que mucha gente cree, se puede venir a nuestra boda sin el traje tradicional bávaro (Tracht). Poneos lo que queráis, ¡siempre que no vengáis hechos un desastre!"
+    - q: "¿Dónde puedo alojarme?"
+      a: "Marcad en el formulario de confirmación que necesitáis alojamiento. Intentaremos organizarlo de forma coordinada y os diremos algo."
+    - q: "¿Hay que ser católico para entrar en la iglesia?"
+      a: "Lo sabréis si empezáis a arder en cuanto piséis la iglesia."
+    - q: "¿Qué hay de comer?"
+      a: "Entrante y plato principal; el resto, de momento, es sorpresa. Después de la iglesia habrá algo contundente para picar."
+    - q: "¿Cómo funciona lo del alojamiento?"
+      a: "Hay dos opciones para dormir en el mismo Langerringen: un hotel que todavía no ha abierto y tres apartamentos vacacionales. Ya hemos consultado con ambos y hay sitio de sobra para todos. Decidnos si os vais a quedar a dormir y nosotros nos encargamos de organizarlo. Ahora mismo, los alojamientos exigen una estancia mínima de dos noches. Para quienes vengan de lejos y lleguen ya la noche del viernes, estamos preparando un pequeño encuentro informal."
+
+gallery:
+  alt: "Magdalena y Josef"
+
+footer:
+  date: "06/03/2027"
+  impressum: "Aviso legal"
+  datenschutz: "Política de privacidad"
+
+impressum:
+  heading: "Aviso legal"
+  body: |
+    <p>Magdalena &amp; Josef Starkmann, 81539 München</p>
+
+datenschutz:
+  heading: "Política de privacidad"
+  body: |
+    <h2>1. Responsables</h2>
+
+    <p>
+    Los responsables del tratamiento de los datos personales en esta web son:
+    </p>
+
+    <p>
+    Magdalena Starkmann<br>
+    Josef Starkmann<br>
+    81539 München<br>
+    Correo electrónico: 8w68ff5c2r@privaterelay.appleid.com
+    </p>
+
+    <h2>2. Información general</h2>
+
+    <p>
+    La protección de vuestros datos personales es importante para nosotros.
+    Los datos personales se tratan exclusivamente conforme a la normativa de protección de datos aplicable, en particular el Reglamento General de Protección de Datos (RGPD).
+    </p>
+
+    <h2>3. Alojamiento de la web</h2>
+
+    <p>
+    Esta web está alojada en GitHub Pages. Al visitarla pueden tratarse datos técnicamente necesarios, en particular:
+    </p>
+
+    <ul>
+    <li>dirección IP</li>
+    <li>fecha y hora del acceso</li>
+    <li>tipo y versión del navegador</li>
+    <li>sistema operativo</li>
+    <li>páginas visitadas</li>
+    </ul>
+
+    <p>
+    Estos datos se tratan para poner la web a disposición y servirla de forma segura.
+    </p>
+
+    <p>
+    Más información:
+    <a href="https://docs.github.com/es/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener noreferrer">Declaración de privacidad de GitHub</a>
+    </p>
+
+    <h2>4. Configuración de idioma</h2>
+
+    <p>
+    La primera vez que abrís la página de inicio, la web elige el idioma según la zona horaria y la configuración de idioma de vuestro navegador. Este proceso se realiza exclusivamente en vuestro navegador; no se envía ningún dato ni a nosotros ni a terceros.
+    </p>
+
+    <p>
+    Si elegís un idioma con las banderas, vuestra elección se guarda en el almacenamiento local (Local Storage) de vuestro navegador para que la web aparezca en ese idioma en vuestra próxima visita. Esta información no sale de vuestro navegador y podéis borrarla en cualquier momento desde la configuración del navegador.
+    La base jurídica es el art. 25, apdo. 2, n.º 2 de la TDDDG (Ley alemana de protección de datos en telecomunicaciones y servicios digitales; almacenamiento estrictamente necesario para un servicio solicitado por vosotros).
+    </p>
+
+    <h2>5. Formulario de confirmación</h2>
+
+    <p>
+    A través del formulario de confirmación pueden enviarse datos personales, en particular:
+    </p>
+
+    <ul>
+    <li>nombre y apellidos</li>
+    <li>asistencia o no asistencia</li>
+    <li>número de adultos y de niños</li>
+    <li>necesidades de alojamiento</li>
+    <li>alergias o intolerancias alimentarias</li>
+    <li>mensajes voluntarios</li>
+    </ul>
+
+    <p>
+    Los datos se tratan exclusivamente para planificar y celebrar nuestra boda.
+    </p>
+
+    <p>
+    La base jurídica es el art. 6, apdo. 1, letra a) del RGPD (consentimiento).
+    </p>
+
+    <h2>6. Tratamiento por parte de Formspree</h2>
+
+    <p>
+    Para el envío técnico de los datos del formulario utilizamos el servicio Formspree.
+    Los datos introducidos se transmiten a Formspree, que los trata para entregar la solicitud del formulario.
+    </p>
+
+    <p>
+    Más información:
+    <a href="https://formspree.io/legal/privacy-policy/" target="_blank" rel="noopener noreferrer">Política de privacidad de Formspree</a>
+    </p>
+
+    <h2>7. Plazo de conservación</h2>
+
+    <p>
+    Los datos enviados a través del formulario solo se conservan durante el tiempo necesario para planificar, organizar y celebrar la boda.
+    Una vez cumplida esta finalidad, se eliminan.
+    </p>
+
+    <h2>8. Destinatarios de los datos personales</h2>
+
+    <p>
+    Para poner la web a disposición y tratar los datos pueden utilizarse los siguientes proveedores de servicios:
+    </p>
+
+    <ul>
+    <li>GitHub Pages (alojamiento web)</li>
+    <li>Formspree (tratamiento de formularios)</li>
+    </ul>
+
+    <h2>9. Derechos de los interesados</h2>
+
+    <p>
+    Tenéis derecho a:
+    </p>
+
+    <ul>
+    <li>obtener información sobre los datos almacenados</li>
+    <li>solicitar la rectificación de datos inexactos</li>
+    <li>solicitar la supresión de vuestros datos</li>
+    <li>solicitar la limitación del tratamiento</li>
+    <li>retirar en cualquier momento el consentimiento otorgado, con efectos para el futuro</li>
+    </ul>
+
+    <p>
+    Para ejercer estos derechos basta con enviar un mensaje informal a los responsables indicados arriba.
+    </p>
+
+    <h2>10. Derecho a presentar una reclamación</h2>
+
+    <p>
+    Tenéis derecho a presentar una reclamación ante una autoridad de control de protección de datos en relación con el tratamiento de vuestros datos personales.
+    </p>
+
+    <h2>11. Cambios en esta política de privacidad</h2>
+
+    <p>
+    Nos reservamos el derecho a modificar esta política de privacidad si así lo exigen cambios legales o técnicos.
+    </p>
+
+    <p>
+    Actualizado: noviembre de 2026
+    </p>

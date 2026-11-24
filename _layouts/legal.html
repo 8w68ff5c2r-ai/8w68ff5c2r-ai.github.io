@@ -1,0 +1,13 @@
+---
+layout: base
+---
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign doc = t[page.key] -%}
+<section class="section legal">
+
+<h1>{{ doc.heading }}</h1>
+{% if t.legal_note and t.legal_note != "" %}
+<p class="legal-note">{{ t.legal_note }}</p>
+{% endif %}
+{{ doc.body }}
+</section>

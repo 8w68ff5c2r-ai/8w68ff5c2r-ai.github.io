@@ -1,0 +1,25 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- for p in site.i18n_pages %}
+{%- if p.key == "home" %}{% assign xdefault = "/" %}{% else %}{% assign xdefault = "/" | append: site.default_lang | append: "/" | append: p.file %}{% endif %}
+{%- capture alternates %}
+{%- for a in site.languages %}
+    <xhtml:link rel="alternate" hreflang="{{ a }}" href="{{ site.url }}/{{ a }}/{{ p.file }}"/>
+{%- endfor %}
+    <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ xdefault }}"/>
+{%- endcapture %}
+{%- if p.key == "home" %}
+  <url>
+    <loc>{{ site.url }}/</loc>{{ alternates }}
+  </url>
+{%- endif %}
+{%- for l in site.languages %}
+  <url>
+    <loc>{{ site.url }}/{{ l }}/{{ p.file }}</loc>{{ alternates }}
+  </url>
+{%- endfor %}
+{%- endfor %}
+</urlset>

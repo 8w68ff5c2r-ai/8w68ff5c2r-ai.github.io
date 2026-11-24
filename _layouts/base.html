@@ -1,0 +1,28 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- if page.key == "home" -%}{%- assign slug = "" -%}{%- else -%}{%- assign slug = page.key | append: ".html" -%}{%- endif -%}
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+{%- if page.root %}
+    <script>{% include lang-detect.js %}</script>
+{%- endif %}
+    <title>{{ t.meta[page.key].title }}</title>
+    <meta name="description" content="{{ t.meta[page.key].description }}">
+{% include hreflang.html %}
+
+    <link rel="stylesheet" href="/assets/css/fonts.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+{% include lang-switcher.html %}
+
+{{ content }}
+
+<script src="/assets/js/lang-switcher.js"></script>
+</body>
+</html>
