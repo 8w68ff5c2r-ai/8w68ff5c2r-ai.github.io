@@ -47,7 +47,7 @@ schedule:
   party_coffee: "Coffee &amp; cake"
   party_dinner: "Dinner &amp; dancing"
   venue_route: "Directions to the venue"
-  end_time: "12.30 am · Carriages"
+  end_time: "12.30 am · End"
 
 rsvp:
   title: "RSVP"
